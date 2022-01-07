@@ -1,0 +1,1 @@
+Here is the result : Hello this is a text file, and this is another
