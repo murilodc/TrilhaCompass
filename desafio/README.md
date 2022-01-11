@@ -9,13 +9,13 @@
 <h1 align="center">Desafio</h1>
 
 <p align="center">
-  <img alt="Principal linguagem do projeto" src="https://img.shields.io/github/languages/top/murilodc/TrilhaCompass/desafio?color=56BEB8">
+  <img alt="Principal linguagem do projeto" src="https://img.shields.io/github/languages/top/murilodc/desafio?color=56BEB8">
 
-  <img alt="Quantidade de linguagens utilizadas" src="https://img.shields.io/github/languages/count/murilodc/TrilhaCompass/desafio?color=56BEB8">
+  <img alt="Quantidade de linguagens utilizadas" src="https://img.shields.io/github/languages/count/murilodc/desafio?color=56BEB8">
 
-  <img alt="Tamanho do repositório" src="https://img.shields.io/github/repo-size/murilodc/TrilhaCompass/desafio?color=56BEB8">
+  <img alt="Tamanho do repositório" src="https://img.shields.io/github/repo-size/murilodc/desafio?color=56BEB8">
 
-  <img alt="Licença" src="https://img.shields.io/github/license/murilodc/TrilhaCompass/desafio?color=56BEB8">
+  <img alt="Licença" src="https://img.shields.io/github/license/murilodc/desafio?color=56BEB8">
 
   <!-- <img alt="Github issues" src="https://img.shields.io/github/issues/murilodc/TrilhaCompass/desafio?color=56BEB8" /> -->
 
@@ -34,7 +34,6 @@
 
 <p align="center">
   <a href="#dart-sobre">Sobre</a> &#xa0; | &#xa0; 
-  <a href="#sparkles-funcionalidades">Funcionalidades</a> &#xa0; | &#xa0;
   <a href="#rocket-tecnologias">Tecnologias</a> &#xa0; | &#xa0;
   <a href="#white_check_mark-pré-requesitos">Pré requisitos</a> &#xa0; | &#xa0;
   <a href="#checkered_flag-começando">Começando</a> &#xa0; | &#xa0;
