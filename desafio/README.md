@@ -1,29 +1,9 @@
-<div align="center" id="top"> 
-  <img src="./.github/app.gif" alt="Desafio" />
-
   &#xa0;
 
   <!-- <a href="https://desafio.netlify.com">Demo</a> -->
 </div>
 
 <h1 align="center">Desafio</h1>
-
-<p align="center">
-  <img alt="Principal linguagem do projeto" src="https://img.shields.io/github/languages/top/murilodc/desafio?color=56BEB8">
-
-  <img alt="Quantidade de linguagens utilizadas" src="https://img.shields.io/github/languages/count/murilodc/desafio?color=56BEB8">
-
-  <img alt="Tamanho do repositório" src="https://img.shields.io/github/repo-size/murilodc/desafio?color=56BEB8">
-
-  <img alt="Licença" src="https://img.shields.io/github/license/murilodc/desafio?color=56BEB8">
-
-  <!-- <img alt="Github issues" src="https://img.shields.io/github/issues/murilodc/TrilhaCompass/desafio?color=56BEB8" /> -->
-
-  <!-- <img alt="Github forks" src="https://img.shields.io/github/forks/murilodc/TrilhaCompass/desafio?color=56BEB8" /> -->
-
-  <!-- <img alt="Github stars" src="https://img.shields.io/github/stars/murilodc/TrilhaCompass/desafio?color=56BEB8" /> -->
-</p>
-
 <!-- Status -->
 
 <!-- <h4 align="center"> 
