@@ -2,7 +2,7 @@
   "development": {
     "username": "root",
     "password": "password",
-    "database": "bloco_notas",
+    "database": "notas_desafio",
     "host": "127.0.0.1",
     "dialect": "mysql"
   },

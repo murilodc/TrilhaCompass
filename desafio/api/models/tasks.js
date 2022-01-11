@@ -1,4 +1,5 @@
 'use strict';
+const { v4: uuidv4 } = require('uuid')
 const {
   Model
 } = require('sequelize');
@@ -10,13 +11,12 @@ module.exports = (sequelize, DataTypes) => {
      * The `models/index` file will call this method automatically.
      */
     static associate(models) {
-      Tasks.belongsTo(models.Notas, {
-        foreignKey: 'mainId'
+      this.belongsTo(models.Notas, {
+        foreignKey: 'nota_id', as: 'nota'
       })
     }
   };
   Tasks.init({
-    mainId: DataTypes.STRING,
     title: DataTypes.STRING,
     taskRelevance: DataTypes.INTEGER,
     completed: DataTypes.BOOLEAN
@@ -24,5 +24,6 @@ module.exports = (sequelize, DataTypes) => {
     sequelize,
     modelName: 'Tasks',
   });
+  Tasks.beforeCreate(task => task.id = uuidv4())
   return Tasks;
 };

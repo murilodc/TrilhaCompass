@@ -1,4 +1,5 @@
 'use strict';
+const { v4: uuidv4 } = require('uuid')
 const {
   Model
 } = require('sequelize');
@@ -10,8 +11,10 @@ module.exports = (sequelize, DataTypes) => {
      * The `models/index` file will call this method automatically.
      */
     static associate(models) {
-      Notas.hasMany(models.Tasks, {
-        foreignKey: 'mainId'
+      this.hasMany(models.Tasks, {
+        foreignKey: 'nota_id',
+        as:'tasks',
+        onDelete: 'cascade'
       })
     }
   };
@@ -22,5 +25,6 @@ module.exports = (sequelize, DataTypes) => {
     sequelize,
     modelName: 'Notas',
   });
+  Notas.beforeCreate(nota => nota.id = uuidv4())
   return Notas;
 };

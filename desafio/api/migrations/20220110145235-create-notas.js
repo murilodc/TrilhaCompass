@@ -4,14 +4,16 @@ module.exports = {
     await queryInterface.createTable('Notas', {
       id: {
         allowNull: false,
-        autoIncrement: true,
+        defaultValue: Sequelize.UUIDV4,
         primaryKey: true,
-        type: Sequelize.STRING
+        type: Sequelize.UUID
       },
       title: {
+        allowNull: false,
         type: Sequelize.STRING
       },
       description: {
+        allowNull: false,
         type: Sequelize.STRING
       },
       createdAt: {
