@@ -5,13 +5,13 @@ class NotaController{
     static async criaNota(req, res){
         const novaNota = req.body
         try{
-            if (!novaNota.tasks) {
+            if (!novaNota.task) {
                 return res.status(400).json({
                     erro: 'Campo \'tasks\' deve receber um valor',
                     mensagem: "Verifique o preenchimento dos campos obrigatórios"
                 })
             }
-            const novaNotaCriada = await database.Notas.create(novaNota, { include: [{ association: 'tasks' }]})
+            const novaNotaCriada = await database.Notas.create(novaNota, { include: [{ association: 'task' }]})
             return res.status(200).json(novaNotaCriada)
         }catch(error){
             return res.status(500).json(error.message)
@@ -21,7 +21,7 @@ class NotaController{
     static async getAll(req,res) {
         try{
             const all = await database.Notas.findAll({include:{
-                association: 'tasks',
+                association: 'task',
                 attributes: [
                     "id",
                     "title",
@@ -45,7 +45,7 @@ class NotaController{
             const nota = await database.Notas.findOne({
                 where: { id: id },
                 include: {
-                    association: 'tasks',
+                    association: 'task',
                     attributes: [
                         "id",
                         "title",

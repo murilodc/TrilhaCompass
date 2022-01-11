@@ -13,7 +13,7 @@ module.exports = (sequelize, DataTypes) => {
     static associate(models) {
       this.hasMany(models.Tasks, {
         foreignKey: 'nota_id',
-        as:'tasks',
+        as:'task',
         onDelete: 'cascade'
       })
     }
