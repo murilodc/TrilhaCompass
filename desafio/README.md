@@ -17,11 +17,11 @@
 
   <img alt="Licença" src="https://img.shields.io/github/license/murilodc/TrilhaCompass/desafio?color=56BEB8">
 
-  <!-- <img alt="Github issues" src="https://img.shields.io/github/issues/murilodc/desafio?color=56BEB8" /> -->
+  <!-- <img alt="Github issues" src="https://img.shields.io/github/issues/murilodc/TrilhaCompass/desafio?color=56BEB8" /> -->
 
-  <!-- <img alt="Github forks" src="https://img.shields.io/github/forks/murilodc/desafio?color=56BEB8" /> -->
+  <!-- <img alt="Github forks" src="https://img.shields.io/github/forks/murilodc/TrilhaCompass/desafio?color=56BEB8" /> -->
 
-  <!-- <img alt="Github stars" src="https://img.shields.io/github/stars/murilodc/desafio?color=56BEB8" /> -->
+  <!-- <img alt="Github stars" src="https://img.shields.io/github/stars/murilodc/TrilhaCompass/desafio?color=56BEB8" /> -->
 </p>
 
 <!-- Status -->
